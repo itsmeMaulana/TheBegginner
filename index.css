@@ -1,0 +1,175 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper a{
+    width: 1300px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Roboto Slab', serif;
+    float: left;
+    color: #069A8E;
+}
+
+.menu {
+    float: right;
+}
+
+nav{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    line-height: 40px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    background: #ffffff;
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin-bottom: 50px;
+    display: flex;
+    margin: auto;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 40px;
+    font-family: 'Comic sans-ms';
+    font-weight: 800;
+    margin-bottom: 10px;
+    width: 100%;
+    line-height: 50px;
+}
+
+
+a.tbl-merah{
+    background: #A1E3D8;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 4px 10px 4px 10px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p{
+    margin: 10px 0px 10px opx;
+    padding: 10px 0px 10px 0pxs;
+}
+
+#contact{
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3{
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-family: 'comic sans ms';
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright{
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
