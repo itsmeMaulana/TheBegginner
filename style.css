@@ -21,13 +21,18 @@ body{
     font-weight: 800;
     font-family: 'Ubuntu', sans-serif;
     float: left;
-    color: #069A8E;
+    color: #79DAE8;
 }
 
 .menu {
     float: right;
 }
 
+.navigation>li>a:hover {
+    color: #79DAE8;
+    transition: all .3S ease-in-out;
+}
+   
 nav{
     margin: auto;
     width: 100%;
@@ -49,6 +54,7 @@ nav ul{
 
 nav ul li{
     float: left;
+    text-align: justify;
 }
 
 nav ul li a{
@@ -73,8 +79,8 @@ section{
     margin-top: 50px;
     margin-bottom: 50px; 
     font-size: 20px;
-    font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
 }
 
 h2{
@@ -103,8 +109,7 @@ p{
 }
 
 #contact{
-    background: #dedede;
-    padding: 50px 0px 50px 0px;
+    background: #72b7c2;
 }
 
 .footer{
@@ -116,7 +121,6 @@ p{
 }
 
 .footer-section{
-    width: 20%;
     margin: 0 auto;
 }
 
@@ -127,6 +131,22 @@ h3{
     font-family: 'comic sans ms';
     width: 100%;
     line-height: 50px;
+}
+
+.footer-section>p{
+    text-align: center;
+    color: black;
+}
+
+.footer-section>p>a{
+    text-align: center;
+    color: black;
+}
+
+.footer-section>p>a:hover{
+    text-align: center;
+    color: lightcyan;
+    text-decoration: none;
 }
 
 #copyright{
